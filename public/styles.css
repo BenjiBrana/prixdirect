@@ -681,10 +681,6 @@ video {
   text-align: center;
 }
 
-.font-body {
-  font-family: Roboto;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -816,11 +812,12 @@ video {
 
 .label {
   margin-top: 0.25rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: 700;
+  text-transform: uppercase;
   --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .header__desktop {
