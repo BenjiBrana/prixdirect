@@ -1,1 +1,1 @@
-https://prixdirect.netlify.app/index.html
+https://prixdirect.netlify.app/public/index.html
