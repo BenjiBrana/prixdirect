@@ -6,14 +6,14 @@
 /* Composants avec Tailwind CSS */
 
 .button {
-  @apply bg-red-600 text-white mt-3 px-3 py-2 border shadow-sm border-slate-300 w-2/6 md:w-1/6 rounded-md sm:text-sm  hover:bg-opacity-50 transition duration-300 active:transform active:scale-95;
+  @apply bg-red-600 text-white uppercase mt-3 px-3 py-2 border shadow-sm border-slate-300 w-2/6 md:w-1/6 rounded-md sm:text-sm  hover:bg-opacity-50 transition duration-300 active:transform active:scale-95;
    
 }
 .input {
   @apply px-3 py-2 bg-white border text-center shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-1/2 md:w-2/6 lg:w-1/6 rounded-md sm:text-sm focus:ring-1;
 }
 .label {
-  @apply mt-1 text-base uppercase font-bold text-red-600;
+  @apply mt-1 text-base uppercase font-bold text-black ;
 }
 .header__desktop {
   @apply md:justify-center gap-2 mb-5;
